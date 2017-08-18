@@ -14,5 +14,5 @@ Run ``make`` to do the build (see ``makefile``).
 
 Start ``python -m SimpleHTTPServer`` and browse to http://localhost:8000/site/site.html.
 
- 
+Example on ``gh-pages``: https://holgerd77.github.io/wasm-demo/ 
 
