@@ -181,26 +181,22 @@ pub fn bn128(a: i32) -> i32 {
 
 
 
-//#[link_args = "-s NO_EXIT_RUNTIME=1"]
-//extern {}
+// #[link_args = "-s NO_EXIT_RUNTIME=1"]
+// extern {}
 
 
 extern {
 	fn emscripten_exit_with_live_runtime();
 }
 
-/*
+
 fn main() {
 	unsafe {
 		emscripten_exit_with_live_runtime();
 	}
 
 }
-*/
 
 
-fn main() {
-    println!("Here we are in the Rust main function!");
-}
 
 
